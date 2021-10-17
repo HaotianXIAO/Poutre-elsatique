@@ -26,7 +26,7 @@ M_x=[]
 M_y=[]
 for j in range(0,l,1):
     M_x.append(j)
-    M_y.append(M(j)) 
+    M_y.append(-M(j)) 
 plt.figure(1)
 diagrame_m = plt.plot(M_x, M_y)
 
@@ -44,7 +44,7 @@ T_x=[]
 T_y=[]
 for j in range(0,l,1):
     T_x.append(j)
-    T_y.append(T(j)) 
+    T_y.append(-T(j)) 
 plt.figure(2)
 diagrame_v = plt.plot(T_x, T_y)
     
@@ -62,6 +62,6 @@ V_x=[]
 V_y=[]
 for j in range(0,l,1):
     V_x.append(j)
-    V_y.append(V(j)) 
+    V_y.append(-V(j)) 
 plt.figure(3)
 diagrame_V = plt.plot(V_x, V_y)
