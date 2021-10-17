@@ -29,8 +29,10 @@ def M(x3):
     if 0 <=x3<(l/3):
         return P*x3
     elif (l/3)< x3 <((2*l)/3):
-        return ((-P/2)*(x3-(l/3)))+((P*l)/2) elif ((2*l)/3)< x3 <=l :
-    return (((-3)*P*(x3-((2*l)/3)))/2)+((P*l)/3) else :
+        return ((-P/2)*(x3-(l/3)))+((P*l)/2) 
+    elif ((2*l)/3)< x3 <=l :
+        return (((-3)*P*(x3-((2*l)/3)))/2)+((P*l)/3) 
+    else :
         return 0
 
 
